@@ -46,7 +46,7 @@
     margin-top: 15px;
     font-size: 20px;
     color: #999;
-    max-width: 40%;
+    max-width: 35%;
 }
 
 .featured--buttons{
@@ -83,4 +83,28 @@
     margin-top: 15px;
     font-size: 18px;
     color: #999;
+}
+
+@media(max-width: 760px){
+    .featured{
+        height: 90vh;
+    }
+    .featured--name{
+        font-size: 40px;
+    }
+    .featured--info{
+        font-size: 16px;
+    }
+    .featured--description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .feature--whatchbutton,
+    .featured--mylistbutton {
+        font-size: 16px;
+    }
+    .featured--genres{
+        font-size: 14px;
+    }
 }
